@@ -1,0 +1,114 @@
+# t-o-form<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <title>Bài tập tạo form 01</title>
+    <style>
+        body{
+            background-color:rgb(230, 219, 176)
+        }
+        h3 {
+            background-color: rgb(34, 17, 133); color: white;
+        }
+      body{
+          color: blue;(230,219,176)
+      }
+    </style>
+    <body>
+        <form method="get" action="baitaptaoform1.html">
+            <h3>ĐĂng kí học viên</h3>
+            <table>
+                <tr>
+                    <p>
+                        <th>Họ và tên</th>
+                        <th>
+                            <label
+                                ><input type="text" name="họ và tên"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>ngày sinh</th>
+                        <th>
+                            <label
+                                ><input type="text" name="Ngày sinh"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Giới tính</th>
+                        <th>
+                            <label
+                                ><input type="checkbox" name="nam" />Nam</labe>
+                            <label
+                                ><input type="checkbox" name="nam" />Nữ</label
+                            >
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Địa chỉ</th>
+                        <th>
+                            <label
+                                ><input sizewidth="50" type="text" name="Địa chỉ"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Lớp</th>
+                        <th>
+                            <select name="Chọn lớp">
+                                <option value="1">lớp 1</option>
+                                <option value="2">lớp 2</option>
+                                <option value="3">lớp 3</option>
+                                <option value="4">lớp4</option>
+                              </select>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Email</th>
+                        <th>
+                            <label
+                                ><input name="Email" type="email" value="Email"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Số điện thoại</th>
+                        <th>
+                            <label
+                                ><input name="Email" type="number" value="số điện thoại"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+                <tr>
+                    <p>
+                        <th>Đăng kí</th>
+                        <th>
+                            <label
+                                ><input name="Email" type="submit" value="ĐĂng kí"/><label
+                                ><input name="Email" type="reset" value="Nhập lại"
+                            /></label>
+                        </th>
+                    </p>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
